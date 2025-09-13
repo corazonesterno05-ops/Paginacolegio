@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Plataforma Escolar - Prototipo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header id="topbar">
+    <div class="brand">Colegio · Plataforma</div>
+    <div id="userArea"></div>
+  </header>
+
+  <main class="layout">
+    <nav id="sidebar"></nav>
+
+    <section id="content">
+      <!-- Renderizado dinámico -->
+    </section>
+  </main>
+
+  <!-- Modal Login/Register -->
+  <div id="modalAuth" class="modal hidden">
+    <div class="modal-card">
+      <button class="close-btn" id="closeAuth">✖</button>
+      <div id="authContent"></div>
+    </div>
+  </div>
+
+  <footer class="footer">Prototipo educativo · No usar en producción sin backend seguro</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
