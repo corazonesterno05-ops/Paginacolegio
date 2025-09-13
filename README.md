@@ -1,2 +1,0 @@
-# Interactik-
-Servicios piublicitarios 
